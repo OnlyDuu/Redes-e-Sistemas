@@ -3,22 +3,22 @@
 
 #### Infraestrutura de redes e principais equipamentos:
 
-* NIC - Network Interface Card: 
+* NIC - Network Interface Card: <br> 
 Placa de rede como é mais conhecida, é o dispositivo responsável pelo acesso do computador à conexão através do cabo de rede Ethernet ou por receber ondas de rádio frequência das conexões wireless.
 
-* HUB: 
+* HUB: <br>
 O HUB é um hardware que permite a conexão entre dispositivos através de cabos de par trançados e conectados entre si.
 
-* Switch:
+* Switch: <br>
 Responsável pela computação dos quadros entre os dispositivos, podemos definir a computação como troca ou encaminhamento de informação.
 
-* Roteador: 
+* Roteador: <br>
 O roteador tem a responsabilidade de procurar as melhores rotas na internet para entregar os pacotes do remetente ao destinatário no menor tempo possivel.
 
-* Modem: 
+* Modem: <br>
 É o equipamento responsável pela modulação e demodulação do sinal de internet.
 
-* Rack:  
+* Rack: <br>
  O rack é um armário para hospedar os equipamentos de hardwares como switchers, roteadores, modens, fibras ópticas e organizar os cabos em patch panels. Ele é essencial em data centers e infraestrutura de redes.
 
 ---
@@ -32,17 +32,17 @@ O roteador tem a responsabilidade de procurar as melhores rotas na internet para
     -> ANSI/TIA 568
     -> ANSI/TIA 569
 
-* Cabo de par trançado:
+* Cabo de par trançado:<br>
 Eles são divididos em categorias que determinam     a velocidade de transmissão dos dados e o alcance em metros que o cabo deve suportar sem a perda de pacotes. 
 O cabo é de cobre e dividido em oito fios, cada fio tendo uma funcionalidade.
 Há dois tipos de cabo, o UTP e STP. 
 ##### Cabo UTP - Não possui isolamento, os fios são ligados diretamente entre si. O ponto negativo é a falta de isolamento, oferecendo ruidos, interferências... 
 ##### Cabo STP - Tem a função de cobrir as deficiências do UTP, permitindo isolamento. 
 
-* Cabo Coaxial: 
+* Cabo Coaxial: <br>
 É composto por fios de cobre, tendo um fio central responsável por ser o condutor do pulso elétrico, malha metálica realizando isolamento e uma blindagem plástica contra interferências externas. 
 
-* Fibra Óptica:
+* Fibra Óptica: <br>
 É a tecnologia guiada por cabo que oferece a maior velocidade de transmissão de dados chegando a altas velocidades na casa dos Gbps. A fibra é composta por pedaços de vidros que permitem a propagação dos raios de luz que são convertidos por conversores nas extremidades das fibras.  
 
 ---
@@ -52,6 +52,7 @@ Há dois tipos de cabo, o UTP e STP.
 
 
 ### Modelo OSI 
+
 * Aplicação - Contém as informações do browser, protocolos DNS, protocolos SSH. 
 * Apresentação - Criptografia, conexão segura, evitar vazamento de dados. 
 * Sessão - Responsável por estabelecer uma sessão entre a origem e seu destino final. 
@@ -84,3 +85,10 @@ Já as camadas abaixo ficam por parte do hardware, computadores, roteadores, swi
 
 #### IPV6: 1050:0000:0000:0000:0005:0600:300c:326b(11050:0:0:0:5:600:300c:326b)
 ##### Formato de 128 bits dividido em 16 pares. Já o IPV6 permite mais de 340 decilhões de conexões.
+
+---
+
+## Calculo de sub rede
+
+### Classes de endereço IP: 
+<img src=src/redes1.jpg>
