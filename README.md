@@ -92,6 +92,7 @@ Já as camadas abaixo ficam por parte do hardware, computadores, roteadores, swi
 
 ### Classes de endereço IP: 
 <img src=src/redes1.jpg>
+
 ---
 
 ## Domínios, DNS e Latência
@@ -110,3 +111,22 @@ Já as camadas abaixo ficam por parte do hardware, computadores, roteadores, swi
 <img src=src/latencia.png>
 
 * Latência de rede é o atraso na comunicação da rede. Ela mostra o tempo que os dados demoram para serem transferidos pela rede.
+
+---
+
+## Principais comandos de configuração em redes de computadores
+
+#### Exibir configurações de IP do windows
+    ipconfig
+#### Limpar o cache DNS de sua máquina
+    ipconfig /flushdns
+#### Testar a conexão de sua máquina com outro host
+    ping google.com
+#### Obter informações sobre registro DNS de um domínio, host ou ip
+    nslookup
+#### Mapear requisição da origem ao host, domínio ou ip
+    tracert google.com
+#### Exibir tabela de roteamento do host
+    route print
+#### Mapear quais portas estão sendo usadas no computador
+    netstat
