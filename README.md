@@ -130,3 +130,50 @@ Já as camadas abaixo ficam por parte do hardware, computadores, roteadores, swi
     route print
 #### Mapear quais portas estão sendo usadas no computador
     netstat
+
+---
+
+## Segurança
+ A segurança da rede combina várias camadas de defesa na borda e na rede. Cada camada de segurança de rede implementa políticas e controles. Usuários autorizados obtêm acesso a recursos de rede, mas agentes mal-intencionados são impedidos de realizar explorações e ameaças.
+
+### Tipos de segurança de rede: 
+
+#### Firewalls
+* Firewalls colocam uma barreira entre a rede interna confiável e as redes externas não confiáveis, como a Internet. Eles usam um conjunto de regras definidas para permitir ou bloquear o tráfego. Um firewall pode ser um hardware, software ou ambos. 
+
+#### Segurança de e-mails
+* Os gateways de e-mail são os principais vetores de ameaça de uma violação de segurança. Os invasores usam informações pessoais e táticas de engenharia social para criar campanhas de phishing sofisticadas, com o objetivo de enganar destinatários e enviá-los para sites de malware. Um aplicativo de segurança de e-mail bloqueia a entrada de ataques e controla mensagens de saída para impedir a perda de dados confidenciais.
+
+#### Software antivírus e antimalware
+* "Malware", abreviação de "malicious software" (software mal-intencionado), inclui vírus, worms, Trojans, ransomware e spyware. Às vezes, o malware infecta uma rede, mas permanece inativo por dias ou até semanas. Os melhores programas antimalware não apenas analisam o malware na entrada, mas também sempre rastreiam os arquivos posteriormente para encontrar anomalias, remover malware e corrigir danos. E lembre-se, o melhor antivírus é o próprio usuário.
+
+#### Segmentação de rede
+* A segmentação definida por software coloca o tráfego de rede em diferentes classificações e facilita a aplicação de políticas de segurança . De preferência, as classificações são baseadas na identidade do endpoint, não em meros endereços IP. Você pode atribuir direitos de acesso com base na função, local e muito mais, para que o nível certo de acesso seja concedido às pessoas certas, e os dispositivos suspeitos sejam contidos e corrigidos.
+
+#### Controle de acesso
+* Nem todo usuário deve ter acesso à rede. Para impedir possíveis invasores, você precisa reconhecer cada usuário e cada dispositivo. Em seguida, você pode aplicar as políticas de segurança. Você pode bloquear dispositivos de endpoint não compatíveis ou conceder a eles apenas acesso limitado. Esse processo é um controle de acesso à rede (NAC).
+
+#### Segurança de aplicações
+* Qualquer software usado para administrar os negócios precisa ser protegido, independentemente de sua equipe de TI criar ou comprar de terceiros. Infelizmente, qualquer aplicação pode conter falhas ou vulnerabilidades que os invasores usam para se infiltrar na rede. A segurança da aplicação abrange o hardware, software e processos que você usa para corrigir essas falhas.
+
+#### Análise do comportamento
+* Para detectar um comportamento anormal da rede, você deve saber como é o comportamento normal. As ferramentas de análise comportamental distinguem automaticamente as atividades que se desviam da norma. A equipe de segurança pode identificar melhor os indicadores de comprometimento que apresentam um possível problema e remediar rapidamente as ameaças.
+
+#### Prevenção contra perda de dados 
+* As empresas devem garantir que a equipe não envie informações confidenciais para fora da rede. As tecnologias de prevenção contra perda de dados, ou DLP, podem impedir as pessoas de enviar, encaminhar ou, até mesmo, imprimir informações importantes de modo não seguro.
+
+#### Sistemas de prevenção contra invasão
+* Um sistema de prevenção contra invasão (IPS) analisa o tráfego da rede para bloquear ativamente os ataques. Os dispositivos Cisco Next-Generation IPS (NGIPS) fazem isso correlacionando grandes quantidades de inteligência de ameaças global, não apenas para bloquear atividades mal-intencionadas, mas também para acompanhar a progressão de arquivos e malware suspeitos na rede, a fim de impedir a disseminação de ataques e reinfecções.
+
+#### Segurança de dispositivo móvel
+* Os criminosos cibernéticos estão visando cada vez mais os dispositivos e aplicativos móveis. Nos próximos 3 anos, 90% das empresas de TI devem ter aplicativos corporativos em dispositivos móveis pessoais. É claro, você precisa controlar quais dispositivos podem acessar a rede. Você também precisará configurar as conexões para manter a privacidade do tráfego de rede.
+
+#### VPN
+* Uma rede virtual privada criptografa a conexão de um endpoint para uma rede, geralmente pela Internet. Normalmente, uma VPN de acesso remoto usa IPsec ou o protocolo SSL (Secure Sockets Layer) para autenticar a comunicação entre o dispositivo e a rede.
+
+#### Segurança da Web
+* Uma solução de segurança da Web controlará o uso da Web da equipe, bloqueará ameaças baseadas na Web e negará acesso a sites mal-intencionados. Ela protegerá o gateway da Web no local ou na nuvem. "Segurança da Web" também se refere às etapas que você executa para proteger o próprio site.
+
+#### Segurança sem fio
+* As redes sem fio não são tão seguras quanto as redes com fio. Sem medidas de segurança rigorosas, instalar um LAN sem fio pode ser como colocar portas de Ethernet em todos os lugares, incluindo o estacionamento. Para impedir uma exploração, é necessário ter produtos projetados especificamente para proteger uma rede sem fio.
+
