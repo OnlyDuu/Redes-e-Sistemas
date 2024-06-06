@@ -92,3 +92,21 @@ Já as camadas abaixo ficam por parte do hardware, computadores, roteadores, swi
 
 ### Classes de endereço IP: 
 <img src=src/redes1.jpg>
+---
+
+## Domínios, DNS e Latência
+
+### Domínio Raiz: 
+<img src=src/dns-root-server.jpg>
+
+* O domínio raiz é o topo da hierarquia de domínios, contendo muitos subdomínios. Pode ser adquirido com um nome específico para a empresa ou uso pessoal. A estrutura do domínio afeta a classificação do site.
+
+### Domínio e Subdomínio:
+<img src=src/componentes-url-com-subdominio.png>
+
+* Domínio é o nome de identificação de um site na internet, por exemplo, resultadosdigitais.com.br. Subdomínio é um endereço que faz parte do domínio, ou seja, é uma ramificação do domínio. Subdiretório é um diretório ou pasta criado a partir do site principal. 
+
+### Latência:
+<img src=src/latencia.png>
+
+* Latência de rede é o atraso na comunicação da rede. Ela mostra o tempo que os dados demoram para serem transferidos pela rede.
